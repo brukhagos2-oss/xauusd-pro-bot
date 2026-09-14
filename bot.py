@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 
 # ቶከንህን እና የቻናል ዩዘርናምህን እዚህ አስገባ
-TOKEN = os.getenv("8581232155:AAF5IYyCs0rKtp9VDktOz0HxwGXAOFbhsKc")
+TOKEN = "8581232155:AAF5IYyCs0rKtp9VDktOz0HxwGXAOFbhsKc"
 CHANNEL_USERNAME = "@Ethio_online_works_1" # የራስህን ቻናል ዩዘርናም አስገባ (ለምሳሌ: @mychannel)
 
 bot = telebot.TeleBot(TOKEN)
