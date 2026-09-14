@@ -9,7 +9,7 @@ from strategy import get_xau_data, calculate_signal
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TELEGRAM_BOT_TOKEN = os.getenv("8581232155:AAE_HnYycci7tQQ7HKN9mqbuJLnIt_njfIQ")
+TELEGRAM_BOT_TOKEN = os.getenv("8606778275:AAFRga45K5orBjcEGWigrCkBCwaJvtPOQy8")
 CHANNEL_USERNAME = os.getenv("@Ethio_online_works_1")
 TWELVE_API_KEY = os.getenv("3664c54c5d064605a75795583af2cd9c")
 ADMIN_CHAT_ID = os.getenv("@Ethio_online_works_1") 
