@@ -14,7 +14,7 @@ TELEGRAM_BOT_TOKEN = os.getenv("8581232155:AAF5IYyCs0rKtp9VDktOz0HxwGXAOFbhsKc8"
 TWELVE_API_KEY = os.getenv("3664c54c5d064605a75795583af2cd9c")
 
 CHANNEL_USERNAME = "@Ethio_online_works_1"
-ADMIN_CHAT_ID = "@Ethio_online_works_1"
+ADMIN_CHAT_ID = "7148438111"
  
 
 active_signal = None
