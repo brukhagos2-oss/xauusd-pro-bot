@@ -9,10 +9,13 @@ from strategy import get_xau_data, calculate_signal
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# --- ትክክለኛው የ Variables አወቃቀር ---
 TELEGRAM_BOT_TOKEN = os.getenv("8606778275:AAFRga45K5orBjcEGWigrCkBCwaJvtPOQy8")
-CHANNEL_USERNAME = os.getenv("@Ethio_online_works_1")
 TWELVE_API_KEY = os.getenv("3664c54c5d064605a75795583af2cd9c")
-ADMIN_CHAT_ID = os.getenv("@Ethio_online_works_1") 
+
+CHANNEL_USERNAME = "@Ethio_online_works_1"
+ADMIN_CHAT_ID = "@Ethio_online_works_1"
+ 
 
 active_signal = None
 
